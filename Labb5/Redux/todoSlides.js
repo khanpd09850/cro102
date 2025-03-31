@@ -9,7 +9,7 @@ const initialState = {
 };
 
 export const todosSlide = createSlice({
-	name: "todo",
+	name: "todos",
 	initialState,
 	reducers: {
 		addTodos: (state, action) => {
